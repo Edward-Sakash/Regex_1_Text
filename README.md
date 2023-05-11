@@ -9,6 +9,7 @@ In this exercise, we will focus on the use and manipulation of text  in Python, 
 
 Hint: for replacement use re.sub(....)
 Research how to use re.sub()
+Hint: you can use the span() method to return a span from a re.Match object
 
 ## Tasks
 

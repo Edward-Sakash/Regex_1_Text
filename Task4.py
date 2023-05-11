@@ -30,3 +30,17 @@ matches = re.finditer(r"in", text)
 # Print the output of the regex function
 for match in matches:
     print(match)
+
+print("______________________________________________")
+
+
+# Solution 3
+import re
+
+text = "Berlin is a city of culture."
+pattern = r"in"
+
+match = re.search(pattern, text)
+
+if match:
+    print(f"<re.Match object; span={match.span()}, match='{match.group()}'>")
