@@ -37,10 +37,13 @@ print("______________________________________________")
 # Solution 3
 import re
 
-text = "Berlin is a city of culture."
-pattern = r"in"
+text = "Berlin is a city of culture."  # The text to search for the pattern
+pattern = r"in"  # The pattern to search for
 
-match = re.search(pattern, text)
+match = re.search(pattern, text)  # Search for the pattern in the text
 
 if match:
-    print(f"<re.Match object; span={match.span()}, match='{match.group()}'>")
+    span = match.span()  # Get the span of the match
+    matched_text = match.group()  # Get the matched substring
+    output = f"<re.Match object; span={span}, match='{matched_text}'>"  # Format the output string
+    print(output)  # Print the formatted output
