@@ -7,6 +7,9 @@ In this exercise, we will focus on the use and manipulation of text  in Python, 
 - Using the Python regex
 - Creating custom regex patterns
 
+Hint: for replacement use re.sub(....)
+Research how to use re.sub()
+
 ## Tasks
 
 ### Task 1
